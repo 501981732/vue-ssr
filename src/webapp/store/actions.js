@@ -10,8 +10,10 @@ export default {
     },
     getTopics: ({ commit, state }, params) => {
         return api.getTopics(params).then(response => {
-            if (response.code = 1) {
-                commit(types.SET_TOPIC, response.data)
+            let data = response.data
+            console.log(data)
+            if (data.code == 1) {
+                commit(types.SET_TOPIC, data.data)
             }
         })
     }

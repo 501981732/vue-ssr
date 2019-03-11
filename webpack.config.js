@@ -54,11 +54,11 @@ let baseConfig = {
           // do fancy stuff
         },
         historyApiFallback: true,
-        port: 8892,
+        port: 8082,
         // contentBase: join(__dirname, "dist/assets/"),
         // open: true,
         proxy: {
-
+            // 'http://localhost:8081': 'http://localhost:8082'
         },
     },
     plugins: [

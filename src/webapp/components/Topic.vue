@@ -2,7 +2,7 @@
     <div class="topic">
         <h2>topic</h2>
         <div v-for='(topic,i) in topics' :key='i'>
-            <p>{{topic.title}}</p>
+            <p>{{topic.name}}</p>
         </div>
     </div>
 </template>
