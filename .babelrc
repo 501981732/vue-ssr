@@ -1,0 +1,31 @@
+// {
+//     "presets": [
+//         // ["@babel/preset-env",
+//         // {
+//         //     "modules": false,
+//         //     // "targets":
+//         //     // {
+//         //     //     "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+//         //     // },
+//         //     "useBuiltIns": "usage"
+//         // }
+//     // ],
+//     ],
+//     "plugins": [
+//         // "transform-object-rest-spread",
+//         "@babel/plugin-proposal-object-rest-spread",
+//         // 异步import报错
+//         "dynamic-import-webpack"
+//         // "@babel/plugin-transform-runtime"
+//     ]
+// }
+
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    // "dynamic-import-webpack",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime"
+]
+}

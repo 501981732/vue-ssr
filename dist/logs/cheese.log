@@ -1,0 +1,88 @@
+[2019-03-08T18:21:43.674] [ERROR] cheese - TypeError: this.createRenderer is not a function
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:97:34)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:24:30.185] [ERROR] cheese - ReferenceError: renderer is not defined
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:102:9)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:24:33.644] [ERROR] cheese - ReferenceError: renderer is not defined
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:102:9)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:24:34.357] [ERROR] cheese - ReferenceError: renderer is not defined
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:102:9)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:28:15.629] [ERROR] cheese - TypeError: ssrRenderer.on is not a function
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:114:21)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:28:43.314] [ERROR] cheese - TypeError: ssrRenderer.on is not a function
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:114:21)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:28:44.257] [ERROR] cheese - TypeError: ssrRenderer.on is not a function
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:114:21)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-03-08T18:28:45.719] [ERROR] cheese - TypeError: ssrRenderer.on is not a function
+    at IndexController.getIndex (/Users/wangmeng/Desktop/study/一灯/vuessr/dist/controllers/indexController.js:114:21)
+    at memberInvoker (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:45:18)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:44:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/wangmeng/Desktop/study/一灯/vuessr/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12

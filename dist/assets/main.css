@@ -1,0 +1,36 @@
+
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+}
+
+
+[data-v-cd48a69c]:root{
+    --mainColor: yellowgreen;
+};
+.index-bem--init[data-v-cd48a69c] {
+    background: #193;
+}
+.index-bem__btn[data-v-cd48a69c] {
+    width: 50px;
+    border: 1px solid var(--mainColor);
+    border-radius: 30px;
+    outline: none;
+}
+
+
+.text {
+    background: yellowgreen;
+}
+

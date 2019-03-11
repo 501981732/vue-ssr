@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{48:function(n,o,i){"use strict";i.r(o);o.default=function(){console.log("init")}}}]);
