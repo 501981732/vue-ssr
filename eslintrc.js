@@ -1,6 +1,8 @@
 module.exports = {
     rules: {
-        "experimentalDecorators": "off"
+        "experimentalDecorators": "off",
+        "no-console": 0,
+        "no-unused-vars": 0
     },
     // 推荐规则
     extends: 'eslint:recommended',
@@ -9,6 +11,7 @@ module.exports = {
         'node': true,
         'es6': true
     },
+    "parser": "babel-eslint",
     parserOptions: {
         'ecmaVersion': 6,
         'sourceType': 'module'
